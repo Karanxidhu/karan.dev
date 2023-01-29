@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111111;
+  font-size: 10px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+
+.nav-bar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar p {
+  color: white;
+  font-size: 1.05rem;
+  letter-spacing: 0.62rem;
+  margin-left: 7rem;
+}
+
+.nav-border {
+  width: 100%;
+  height: 1px;
+  background-color: #292929;
+}
+
+.page-contents {
+  position: absolute;
+  right: 10rem;
+}
+
+.page-contents ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-contents ul li {
+  color: white;
+  font-size: 1rem;
+  list-style: none;
+  padding: 0 20px;
+}
+
+.main-container {
+  margin: 0 auto;
+  /* margin-top: 5rem; */
+  /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+  font-size: 1.05rem;
+  max-width: 870px;
+  padding: 10rem 20rem 0 20rem;
+  color: #b1b1b1;
+}
+
+.main-text {
+  line-height: 3.7rem;
+  font-size: 3.2rem;
+  margin-top: 2rem;
+  color: white;
+  letter-spacing: 0.25rem;
+}
+
+.gradient-1 {
+  background: linear-gradient(
+    90deg,
+    #e39600 6.72%,
+    #ea4c89 43.47%,
+    #8f48eb 75.22%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.intro-para-1 {
+  letter-spacing: 0.05rem;
+  padding-top: 4rem;
+  line-height: 2.2rem;
+}
+
+.intro-para-2 {
+  letter-spacing: 0.05rem;
+  padding-top: 2rem;
+  line-height: 2.2rem;
+}
+
+.contact-links ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding-top: 2rem;
+}
+.contact-links ul li a {
+  fill: #b1b1b1;
+  padding-right: 2rem;
+}
+.contact-links {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.skills-container {
+  font-size: 1.05rem;
+  max-width: 870px;
+  padding: 4.8rem 20rem 0 20rem;
+  color: #b1b1b1;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.head {
+  font-size: 1.3rem;
+  color: white;
+  letter-spacing: 0;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.skills p {
+  grid-column: span 2;
+}
+
+.css-pic {
+  height: 7rem;
+  /* visibility: hidden; */
+  position: relative;
+  opacity: 0;
+  transition: 0.25s ease-out;
+  right: 15rem;
+  /* top: 10rem; */
+}
+
+.skill2 {
+  padding-top: 5rem;
+}
+
+.js-pic {
+  opacity: 0;
+  transition: 0.25s ease-out;
+  position: relative;
+  height: 7rem;
+  right: 20rem;
+  top: 2rem;
+}
+
+.card {
+  background-color: #292929;
+  height: 8rem;
+  width: 55rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  transition: 0.3s;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card > p {
+  padding-left: 4rem;
+  transition: 0.3s;
+}
+
+.skill-name {
+  color: white;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin-right: 5rem;
+}
+
+.card:hover {
+  height: 320px;
+}
+
+.card:hover p {
+  transform: translateY(-100px);
+}
+
+.card:hover .css-pic {
+  opacity: 1;
+}
+
+.card:hover .css-pic {
+  transform: translateY(3rem);
+}
+
+.card:hover .js-pic {
+  opacity: 1;
+}
+
+.card:hover .js-pic {
+  transform: translateY(3rem);
+}
+
+.text-move {
+  position: relative;
+  right: 2rem;
+}
