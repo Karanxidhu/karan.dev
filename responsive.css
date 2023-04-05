@@ -2,4 +2,8 @@
     .page-contents{
         visibility: hidden;
     }
+    .nav-mag-bar{
+        visibility: visible;
+    }
+
 }

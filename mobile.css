@@ -1,0 +1,50 @@
+@media screen and (max-width : 850px){
+    .main-text{
+        position: absolute;
+        top: 8rem;
+        font-size: 2.3rem;
+        max-width: 500px;
+        padding-right: 15vw;
+    }
+    .in-text{
+        padding-top: 15rem;
+    }
+    .timeline{
+        padding-left: 20vw;
+        padding-right: 0vw;
+    }
+
+}
+
+@media screen and (max-width: 680px){
+    .in-text{
+        padding-top: 20rem;
+    }
+    .main-text{
+        padding-right:5vw;
+        /* padding-left:10vw; */
+    }
+    .main-container{
+        padding-right:10vw;
+        padding-left:10vw;
+    }
+    .skills-container{
+        padding-left:10vw;
+    }
+    .card{
+        width: 80vw;
+        padding-left: 0vw;
+    }
+    .timeline{
+        padding-left: 20vw;
+        padding-right: 0vw;
+    }
+    .end{
+        max-width: 300px;
+        text-align: center;
+        margin:10rem auto;
+    }
+    .text-move{
+        font-size: 0.7rem;
+    }
+}

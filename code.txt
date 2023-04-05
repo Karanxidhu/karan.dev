@@ -1,0 +1,75 @@
+    .gridtime-line{
+        padding-left: 0;
+        padding-right: 0vw;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 400px;
+    }
+    .end{
+        /* padding-top: 40rem; */
+    }
+    .magic-stick{
+        height: 2px;
+        width: 9rem;
+    }
+    .birth{
+        position: relative;
+        top: 20rem;
+        font-size: 1rem;
+    }
+    .birth span{
+        font-size: 1.7rem;
+    }
+    .birth p{
+        font-size: 1rem;
+    }
+    .birth > .magic-stick{
+        position: relative;
+        bottom: 3.2rem;
+        left: 6rem;
+    }
+    .college span{
+        font-size: 1.7rem;
+    }
+    .college p{
+        font-size: 1rem;
+    }
+    .college > .magic-stick{
+        position: relative;
+        bottom: 3.2rem;
+        right: 9rem;
+    }
+    .college{
+        position: relative;
+        top: 55rem;
+        left: 20rem;
+        padding-right: 30vw;
+        margin-right: 30;
+    }
+    .school span{
+        font-size: 1.7rem;
+    }
+    .school p{
+        font-size: 1rem;
+    }
+    .school > .magic-stick{
+        position: relative;
+        top: 1.2rem;
+        left: 6.5rem;
+    }
+    .school{
+        position: relative;
+        bottom: 25rem;
+        left: 6rem;
+    }
+
+        .magic-bar{
+        height: 45rem;
+        width: 5rem;
+        position: relative;
+        /* /* margin-top: 25rem; */
+        margin-right: 20vw; 
+        left: 43vw;
+        border-radius:25px;
+        z-index: 5;
+    }

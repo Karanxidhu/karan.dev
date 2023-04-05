@@ -33,7 +33,7 @@ body {
 
 .page-contents {
   position: absolute;
-  right: 10rem;
+  right: 8rem;
 }
 
 .page-contents ul {
@@ -43,10 +43,14 @@ body {
 }
 
 .page-contents ul li {
-  color: white;
-  font-size: 1rem;
   list-style: none;
   padding: 0 20px;
+}
+
+.page-contents ul li a{
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
 }
 
 .main-container {
@@ -58,7 +62,7 @@ body {
     justify-content: center; */
   font-size: 1.05rem;
   max-width: 870px;
-  padding: 10rem 20rem 0 20rem;
+  padding: 10rem 20vw 0 20vw;
   color: #b1b1b1;
 }
 
@@ -113,10 +117,10 @@ body {
 .skills-container {
   font-size: 1.05rem;
   max-width: 870px;
-  padding: 4.8rem 20rem 0 20rem;
+  padding: 4.8rem 20vw 0 20vw;
   color: #b1b1b1;
   margin: 0 auto;
-  margin-top: 5rem;
+  margin-top: 15rem;
 }
 
 .head {
@@ -131,10 +135,6 @@ body {
   padding-top: 2rem;
   gap: 1rem;
   align-items: flex-start;
-}
-
-.skills p {
-  grid-column: span 2;
 }
 
 .css-pic {
@@ -163,7 +163,7 @@ body {
 .card {
   background-color: #292929;
   height: 8rem;
-  width: 55rem;
+  width: 55vw;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -173,7 +173,7 @@ body {
 }
 
 .card > p {
-  padding-left: 4rem;
+  padding-left: 1vw;
   transition: 0.3s;
 }
 
@@ -197,7 +197,7 @@ body {
 }
 
 .card:hover .css-pic {
-  transform: translateY(3rem);
+  transform: translateY(2rem);
 }
 
 .card:hover .js-pic {
@@ -205,10 +205,154 @@ body {
 }
 
 .card:hover .js-pic {
-  transform: translateY(3rem);
+  transform: translateY(2rem);
 }
 
 .text-move {
   position: relative;
   right: 2rem;
+}
+
+.timeline{
+font-size: 1.05rem;
+max-width: 870px;
+padding: 4.8rem 20rem 0 20rem;
+margin: 0 auto;
+margin-top: 5rem;
+color: #b1b1b1 ;
+}
+
+.timeline p {
+  font-size: 1.3rem;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.gridtime-line{
+  width: 80vw;
+  display: grid;
+  /* max-width: 1000px; */
+  padding: 4.8rem 4.8rem 2rem 4.8rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.magic-bar{
+  height: 10rem;
+  width: 80vw;
+  /* grid-row: span 3; */
+  background-color: white;
+  border-radius: 2.8rem;
+  margin: 10rem 0;
+  margin-bottom: 0;
+  background: linear-gradient(90deg, #e39600, #ea4c89, #8f48eb);
+  background-size: 600% 600%;
+  animation: AnimationName 8s ease infinite;
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position:  0% 51%;
+  }
+  
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position:  0% 51%;
+  }
+}
+
+.birth{
+  /* height: 10rem; */
+  max-width: 15rem;
+  /* background-color: #8f48eb; */
+  /* grid-column:1/ span 2; */
+  position: absolute;
+  left: 12vw;
+}
+.college{
+  /* max-width: 17rem; */
+  /* background-color: #228976; */
+  position: absolute;
+  right: 15vw;
+}
+.school{
+  height: 10rem;
+  width: 10rem;
+  /* background-color: #1bc07b; */
+  /* margin-left: 45vw; */
+  position: relative;
+  left: 30vw;
+}
+
+.birth-col{
+  display: flex;
+  width: 70vw;
+  /* gap: 76rem; */
+}
+.birth p {
+  color: #b1b1b1;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+.college p {
+  color: #b1b1b1;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+.school p {
+  color: #b1b1b1;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+.head-tip{
+  font-size: 2.5rem;
+  color: white;
+}
+.school{
+  /* padding-top: 5rem; */
+}
+.magic-stick{
+  width: 2px;
+  height: 4.2rem;
+  margin-top: 1rem;
+  background: linear-gradient(270deg, #e39600, #ea4c89, #8f48eb);
+  background-size: 600% 600%;
+  animation: AnimationName 12s ease infinite;
+  margin: 0 auto;
+}
+
+.nav-mag-bar{
+  background: linear-gradient(270deg, #e39600, #ea4c89, #8f48eb);
+  background-size: 600% 600%;
+  animation: AnimationName 12s ease infinite;
+  height: 2px;
+  width: 70vw;
+  visibility: hidden;
+}
+
+.end span{
+  background: linear-gradient(90deg, #e39600, #ea4c89, #8f48eb);
+  background-size: 600% 600%;
+  animation: AnimationName 8s ease infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  margin-bottom: 30rem;
+  font-size: 1.3rem;
+  flex-direction: column;
+}
+.email{
+  font-size: 1.1rem;
+  color: #b1b1b1;
+  padding-top: 1rem;
 }
